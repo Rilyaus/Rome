@@ -19,6 +19,6 @@ app.use(session({
 
 var router      = require('./router/main') (app, fs);
 
-var server  = app.listen(3000, function() {
+var server      = app.listen(3000, function() {
     console.log("Moneybook server has started on port 3000");
 });

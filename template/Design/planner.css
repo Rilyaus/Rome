@@ -1,0 +1,17 @@
+.main {
+  padding: 3em 5em;
+  font-size: 16px; }
+  .main .container {
+    display: block;
+    max-width: 100% !important;
+    font-size: 22px;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+    .main .container .secondary {
+      overflow: auto; }
+      .main .container .secondary > a {
+        font-weight: 900;
+        color: black;
+        display: block;
+        float: left;
+        padding: 1em; }
